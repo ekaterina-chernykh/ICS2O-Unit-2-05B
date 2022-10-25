@@ -1,4 +1,4 @@
-var GHPATH = "/github-page-pwa"
+var GHPATH = "/ICS2O-Unit-2-05B"
 var APP_PREFIX = "gppwa_"
 var VERSION = "version_001"
 var URLS = [
