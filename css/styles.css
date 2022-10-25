@@ -22,18 +22,31 @@
 }
 
 body {
-  background-color: rgb(154 211 232);
+  background-color: #345a98;
+}
+
+#right-image {
+  position: absolute;
+  right: 0%;
 }
 
 p {
-  color: black;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
   font-size: 1.5rem;
-  padding-top: 15pt;
+  padding-top: 5pt;
 }
 
-img {
-  float: right;
-  margin-right: 15px;
+h3 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
+
+h6 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
 }

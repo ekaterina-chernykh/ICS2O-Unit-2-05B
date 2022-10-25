@@ -18,6 +18,18 @@ if (navigator.serviceWorker) {
 /**
  * This function displays an alert.
  */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+ function calculate() {
+  // input
+  const worked = parseFloat(document.getElementById("number-of-hours").value)
+  const rate = parseFloat(document.getElementById("hourly-rate").value)
+
+  // process
+  const pay = worked * rate * (1 - 0.18)
+  const tax = worked * rate * 0.18
+
+  // output
+  document.getElementById("pay").innerHTML =
+    "Your pay will be $" + pay.toFixed(2)
+  document.getElementById("tax").innerHTML =
+    "The govenment will take $" + tax.toFixed(2)
 }
