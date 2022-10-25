@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * This function displays an alert.
  */
- function calculate() {
+function calculate() {
   // input
   const worked = parseFloat(document.getElementById("number-of-hours").value)
   const rate = parseFloat(document.getElementById("hourly-rate").value)
